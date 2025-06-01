@@ -12,12 +12,12 @@ return {
       -- refer to the configuration section below
     },
   },
-  {
-    'github/copilot.vim',
-    config = function()
-      vim.cmd 'Copilot setup'
-    end,
-  },
+  -- {
+  --   'github/copilot.vim',
+  --   config = function()
+  --     vim.cmd 'Copilot setup'
+  --   end,
+  -- },
   {
     'ThePrimeagen/harpoon',
     branch = 'harpoon2',
